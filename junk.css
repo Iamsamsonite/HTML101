@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    font-family: "DM Sans", sans-serif;
+
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.image{
+    padding: 30px;
+}
+.align{
+    background-color: #1E0E62;
+    padding: 0 70px;
+
+}
+header {
+    justify-content: space-between;
+    display:flex;
+}
+
+.bonded.group .align .logo {
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    font: #ffffff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bit-signin {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color:#1E0E62;
+    padding: 0 30px;
+}
+
+.bit-signup {
+        outline: #636262;
+        box-shadow: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        background-color:#1E0E62;
+        text-decoration: none;
+        border: 2px solid #ffffff5d;
+        width: 70px;
+        border-radius: 20px;
+        color: #ffffff;
+}
+
+.logo{
+    line-height: 1.0px;
+    padding: 20px 20px;
+    margin-right: 10px;
+    grid: 1000px;
+
+}
+
+.group {
+    line-height: 50px;
+}
