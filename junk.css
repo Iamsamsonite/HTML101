@@ -77,3 +77,126 @@ nav ul li a {
 .group {
     line-height: 50px;
 }
+
+.hero {
+    background-color: #1E0E62;
+    padding: 10px 50px;
+    display: flex;
+}
+
+.hero-left .btn-learn {
+    text-align: left;
+}
+
+.hero-left{
+    color: #ffffff;
+    margin: 40px;
+}
+
+.hero-left h4 {
+    font-size: 30px;
+    margin:20px;
+}
+
+.hero-left p {
+    font-size: 10px;
+    margin: 20px;
+}
+
+.btn-learn {
+    background-color:#E93A7D;
+    color: #ffffff;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: none;
+    margin: 20px;
+    border: none;
+}
+
+.hero-right{
+    color: #1E0E62;
+    font-size: 20px;
+    background-color: #fff;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.hero-up {
+    font-size: 20px;
+    color: #1E0E62;
+
+}
+
+.email, .password {
+    border-radius:20px;
+    border: 1px solid #a09e9e;
+    width: 330px;
+    height: 40px;
+}
+
+.password {
+    margin-top: 20px;
+}
+
+.service {
+    color: #a09e9e;
+    font-size: 14px;
+}
+
+.smallbutton {
+    background-color: #25DAC5;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    width: 24px;
+    height: 24px;
+}
+
+.but-sig {
+    background: #482BE7;
+    border: none;
+    width: 330px;
+    height:40px;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.or {
+    color: #a09e9e; 
+}
+
+ .line {
+    height: 1px;
+    background-color: #a09e9e;
+    width: 300px;
+    border: none;
+    text-shadow: none;
+    margin: 15px;
+}
+
+.log-twitter {
+    background: #1DA1F2;
+    border: none;
+    width: 330px;
+    height:40px;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.account {
+    color: #a09e9e;
+}
+
+.signin {
+    color: #25DAC5;
+    font-size: 15px;
+}
