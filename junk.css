@@ -226,23 +226,28 @@ nav ul li a {
     margin-left: 100px;
 }
 
-.frame {
-    background: #2F1893;
-    text-align: center;
-    color: #fff;
-}
-
-.header {
-    text-align: center;
-    border-top: 120px;
-
-}
 .image1 {
-    size-adjust: 200px;
+    border-right: 50px;
+    background-size: contain;
+    width: 1260px;
+    height: 250px;
 }
- 
-    
-.header1 {
+.imagecontainer {
+    margin-top: 30px;
+    background-color: #1E0E62;
+    position: relative;
+    display: block;
+}
+
+.imageoverlay {
+    text-align: center;
+    position:absolute;
+    top: 900px;
+    right: 300px;
+    color: #ffffff
+}
+
+.header1 {;
     font-size: 30px;
 }
 
