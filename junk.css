@@ -137,7 +137,7 @@ nav ul li a {
     border-radius:20px;
     border: 1px solid #a09e9e;
     width: 330px;
-    height: 40px;
+    height: 40px;  
 }
 
 .password {
@@ -146,7 +146,12 @@ nav ul li a {
 
 .service {
     color: #a09e9e;
-    font-size: 14px;
+    font-size: 14px;  
+}
+ 
+.forline{
+   display: flex;
+   margin: 10px; 
 }
 
 .smallbutton {
@@ -166,20 +171,11 @@ nav ul li a {
     height:40px;
     border-radius: 100px;
     color: #fff;
-    cursor: pointer;
+    cursor: pointer;   
 }
 
 .or {
     color: #a09e9e; 
-}
-
- .line {
-    height: 1px;
-    background-color: #a09e9e;
-    width: 300px;
-    border: none;
-    text-shadow: none;
-    margin: 15px;
 }
 
 .log-twitter {
@@ -218,7 +214,6 @@ nav ul li a {
     display: flex;
     margin-left: 250px;
     padding-top: 10px;
-   
 }
 
 .move {
@@ -226,31 +221,39 @@ nav ul li a {
     margin-left: 100px;
 }
 
-.image1 {
-    border-right: 50px;
-    background-size: contain;
-    width: 1260px;
-    height: 250px;
-}
-.imagecontainer {
+.feature-content {
     margin-top: 30px;
-    background-color: #1E0E62;
-    position: relative;
-    display: block;
 }
 
-.imageoverlay {
+.feature-head h4 {
+    color: #1E0E62;
     text-align: center;
-    position:absolute;
-    top: 900px;
-    right: 300px;
-    color: #ffffff;
 }
 
-.header1 {
-    font-size: 30px;
+.feature-head p {
+    color: #a09e9e;
+    margin-top: 0px;
+    text-align: center;
 }
 
-.header4 {
-    font-size: 10px;
+.feature-left {
+    margin: 50px 360px;
+    padding-top: 20px;
+}
+
+.feature-subleft h6{
+    color: #1E0E62;
+    padding-top: 20px;
+}
+
+.feature-subleft p {
+    color: #a09e9e;
+    font-size: 12px;
+}
+
+.feature-image img{
+    padding-top: 50px;
+    padding-right: 280px;
+    float: right;
+    width: 30%; 
 }
