@@ -257,3 +257,264 @@ nav ul li a {
     float: right;
     width: 30%; 
 }
+
+.easy {
+    padding-top: 100px;
+    position: relative;
+}
+
+.image1 img {
+    background-color: #482BE7;
+    width: 1259px;
+    height: 600px;
+    position: relative;
+}
+
+.easy1 {
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    left: 450px;
+}
+
+.easyfit p {
+    font-size: 12px;
+}
+
+.easyfit h4 {
+    font-size: 20px;
+}
+
+.easy-right img, .easy-left img {
+    width:27px;
+    height: 25px;
+}
+
+.subset{
+    position: absolute;
+    display: flex;
+    top: 310px;
+    right: 160px;
+    left:0px;
+    padding-left: 0px;
+}
+
+.subset p {
+    font-size: 10px;
+}
+
+.subset h3 {
+    font-size: 14px;
+}
+
+
+.sam1 {
+    float: left;
+    color: #ffffff;
+}
+
+.easy-right img {
+    position: absolute;
+    top: 10px;
+}
+
+.easy-right p {
+    position: absolute;
+    top: 40px;
+    left: 290px;
+}
+
+.easy-right1 {
+    position: absolute;
+    left: 50px;
+}
+
+.easy-left {
+    position: absolute;
+    right: 150px;
+    left: 450px;
+    color: #ffffff;
+}
+
+.easy-left img {
+    position: absolute;
+    top: 10px;
+}
+
+.sam2 {
+    position: absolute;
+    right: 130px;
+}
+.easy-right, .easy-left {
+    padding-left: 100px;
+}
+
+.easy-left {
+    display: flex;
+    padding-right: 50px;
+
+}
+
+.easy-right img{
+    position: relative;
+    padding-left: 200px;
+}
+
+.sam1{
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+
+.easy-right1 {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.easy-left1 {
+    padding-bottom: px;
+    color: #ffffff;
+    font-size: 12px;
+    top: 20px;
+}
+
+.image2 img {
+    position: absolute;
+    width: 450px;
+    top: 458.7px;
+    right: 500px;
+}
+
+.macbook img {
+    position: absolute;
+    width: 590px;
+    top: 440px ;
+    right: 429px ;
+}
+
+.commerce {
+    padding-top: 50px;
+    display: flex;
+    gap: 150px;
+}
+
+.shoe1 img {
+    width: 500px;
+    }
+
+.commerce-right {
+  color: #1E0E62 ;
+}
+
+.commerce-right p {
+    color: #a09e9e;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.commerce-price {
+    display: flex;
+    gap: 30px;
+    padding: 0px 0px 50px 0px;
+}
+
+.commerce-price1 {
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #482BE7;
+    color: #fff;
+    border: none;
+    padding: 0 36px;
+}
+
+.commerce-item {
+    display: flex;
+    gap: 20px;
+}
+
+.footer {
+    display: flex;
+    padding: 50px;
+    gap: 130px;
+    background: #2F1893;
+    margin-top: 50px;
+    color: #fff
+}
+
+.footer1 {
+    padding-left: 70px;
+}
+ 
+.footer p {
+    font-size: 10px;
+}
+
+.para1 {
+    font-size: 10px;
+}
+
+.button form {
+    width: 200px;
+    color: #a09e9e;
+    margin-top: 10px; 
+    cursor: pointer;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    text-align: justify
+}
+
+.button {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.button button {
+    background: #25DAC5;
+    box-shadow: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px ;
+    color: #fff;
+    height: 30px;
+    width: 100px;
+}
+
+.footer1-bottom{
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.par0, .par1, .par2, .par3, .par4 {
+    margin-bottom: 25px;
+}
+
+.par5, .par6, .par7, .par8, .par9, .par10 {
+    margin-bottom: 25px;
+}
+
+.footer4-but {
+    background: #E93A7D;
+    box-shadow: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px ;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+}
+
+.par11 {
+    padding-left: 20px;
+}
+
+.footer4 {
+    padding-left: 100px;
+}
