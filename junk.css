@@ -70,7 +70,6 @@ nav ul li a {
     line-height: 1.0px;
     padding: 20px 20px;
     margin-right: 10px;
-    grid: 1000px;
 
 }
 
@@ -131,6 +130,10 @@ nav ul li a {
     font-size: 20px;
     color: #1E0E62;
 
+}
+
+.emalpass input {
+    padding-left: 20px;
 }
 
 .email, .password {
@@ -421,6 +424,7 @@ nav ul li a {
     padding: 0px 0px 50px 0px;
 }
 
+
 .commerce-price1 {
     cursor: pointer;
     text-decoration: none;
@@ -429,6 +433,7 @@ nav ul li a {
     color: #fff;
     border: none;
     padding: 0 36px;
+    height: 40px;
 }
 
 .commerce-item {
@@ -439,7 +444,7 @@ nav ul li a {
 .footer {
     display: flex;
     padding: 50px;
-    gap: 130px;
+    gap: 100px;
     background: #2F1893;
     margin-top: 50px;
     color: #fff
@@ -458,19 +463,20 @@ nav ul li a {
 }
 
 .button form {
-    width: 200px;
+    width: 140px;
     color: #a09e9e;
     margin-top: 10px; 
     cursor: pointer;
-    padding-left: 10px;
-    padding-bottom: 2px;
-    text-align: justify
+    padding-left: 5px;
+    padding-bottom: 0px;
+    text-indent: 7px;
+    height: 30px;
 }
 
 .button {
     margin-top: 20px;
     display: flex;
-    gap: 20px;
+    gap: 8px;
 }
 
 .button button {
@@ -479,10 +485,10 @@ nav ul li a {
     cursor: pointer;
     border: none;
     border-radius: 20px;
-    margin-top: 20px ;
+    margin-top: 10px ;
     color: #fff;
     height: 30px;
-    width: 100px;
+    width: 90px;
 }
 
 .footer1-bottom{
@@ -518,3 +524,415 @@ nav ul li a {
 .footer4 {
     padding-left: 100px;
 }
+
+.men {
+    display: none;
+}
+
+@media screen and (max-width: 620px) {
+    
+    .align {
+        padding: 0 390px 0 10px;
+    }
+
+    .bonded.group .align .logo {
+        flex-direction: column;
+        display: none;
+        padding: 0 10px;
+    }
+    
+    nav ul{
+        flex-direction: column;
+    }
+    
+    .men {
+        display: block;
+        color: #fcf7f7;
+        margin-top: 30px;
+        padding-left: 200px;
+
+    }
+
+    .overall {
+        display: none;
+    }
+
+     .hero-left br {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 20px 380px 5px 20px;
+        margin-top: -10px;
+    }
+    
+    .hero-left {
+        width: 300px; 
+        padding-left: 0px;
+        margin: 0px;
+    }
+    
+    .hero-left h4{
+        font-size: 20px;
+    }
+
+    .hero-left h4{
+        font-size: 20px;
+    }
+    .learn {
+        margin-top: 2px;
+    }
+
+    .align {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image {
+        padding: 30px 10px;
+    }
+     
+    .btn-learn {
+        margin: 5px 14px;
+    }
+
+    .hero-right{
+        font-size: 25px;
+        width: 320px;
+        text-align: center;
+        margin: 20px 10px;
+        
+    }
+
+    .hero-up {
+        font-size: 15px;
+    
+    }
+    
+    .email, .password {
+    
+        width: 290px;
+        height: 30px;  
+    }
+    
+    .password {
+        margin-top: 10px;
+    }
+    
+    .service {
+        font-size: 10px;  
+    }
+     
+    .forline{
+       margin: 5px; 
+    }
+    
+    .smallbutton {
+        width: 20px;
+        height: 19px;
+    }
+    
+    .but-sig {
+        width: 290px;
+        height:40px; 
+    }
+    
+    
+    .log-twitter {
+        width: 290px;
+        height:40px;
+    }
+    .or {
+        font-size: 19px;
+    }
+
+    .account {
+        font-size: 15px;
+    }
+
+    br {
+        display: none;
+    }
+    .sectionhead {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    .section, .move {
+    
+        border-right: 10px;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .feature-content {
+        margin-top: 20px;
+    }
+    
+    
+    
+    .feature-left {
+        margin: 10px 20px;
+        padding-top: 20px;
+        text-align: left;
+
+    }
+
+    .h6 {
+        margin-top: 30px;
+    }
+    
+    .feature-subleft h6{
+        padding-top: 10px;
+    }
+    
+    .feature-subleft p {
+        font-size: 15px;
+    }
+    
+    .feature-image img{
+        padding-top: 20px;
+        padding-right: 50px;
+        width: 300px; 
+    }
+    
+ 
+    .easy {
+        padding-top: 15px;
+    }
+    
+    .image1 img {
+        width: 399px;
+        height: 320px;
+    }
+    
+    .easy1 {
+        text-align: center;
+        top: 5px;
+        left: 5px;
+    }
+    
+    .easyfit p {
+        font-size: 12px;
+
+    }
+    
+    .easyfit h4 {
+        font-size: 15px;
+    }
+    .easy1 h6 {
+        margin-top: 15px;
+    }
+    .easy1 h4 {
+        margin-top: -10px;
+    }
+
+    .easy1 p {
+        margin-top: -15px;
+    }
+    
+    .easy-right img, .easy-left img {
+        width:10px;
+        height: 10px;
+    }
+    
+    .subset{
+        flex-direction: column;
+        top: 135px;
+    }
+    
+    
+    .subset h3 {
+        font-size: 14px;
+        
+    }
+    
+    
+    .sam1 p {
+        left: 100px;
+        
+    }
+    
+    
+    .easy-right p {
+        top: 20px;
+        text-align: center;
+        width: 200px;
+
+    }
+
+
+    .easy-right h3 {
+        top: 20px;
+        width: 100px;
+
+    }
+    
+    .easy-right1 {
+        left: 100px;
+    }
+    
+    .easy-left {
+        right: 300px;
+        left: 250px;
+        width: 200px;
+    }
+    
+    .easy-left img {
+        top: 15px;
+        left: 0px;
+    }
+    
+    .sam2 {
+        left: 12px;
+        width: 200px;
+
+    }
+
+    .sam2 p {
+        margin-top: -10px;
+    }
+
+    .sam1 p {
+        left: 110px;
+    }
+
+    .easy-right  {
+        padding-left: 1px;
+    }
+    
+    .easy-left {
+        flex-direction: column;
+        padding-right: 1px;
+        left: 100px;
+        top: 50px;
+        
+    
+    }
+    
+    .easy-right img{
+        padding-left: 1px;
+    }
+    
+    .sam1{
+        padding-left: 10px;
+        padding-bottom: 0px;
+    }
+    
+    .easy-right1 {
+        gap: 0px;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    
+    .easy-left1 {
+        font-size: 12px;
+        top: 2px;
+    }
+    
+    .image2 img {
+        width: 130px;
+        top:266px;
+        right:120px;
+
+    }
+    
+    .macbook img {
+        width: 170px;
+        top: 260px ;
+        right: 100px ;
+    }
+
+    .commerce {
+        padding-top: 20px;
+        padding-left: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .shoe1 img {
+        width: 350px;
+        }
+    
+    
+    .commerce-right p {
+        padding-bottom: 10px;
+    }
+    
+    .commerce-price {
+        flex-direction:column;
+        gap: 10px;
+    }
+    
+    .commerce-price1 {
+        height: 40px;
+        width: 350px;
+    }
+
+    .commerce-price p {
+        text-align: center;
+    }
+    
+    .commerce-item {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .commerce-item img {
+        width: 300px;
+    } 
+
+    .footer {
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+        margin-top: 20px;
+        width: 380px;
+    }
+    
+    .footer1 {
+        padding-left: 10px;
+    }
+     
+    .footer p {
+        font-size: 12px;
+    }
+    
+    .para1 {
+        font-size: 12px;
+    }
+    
+    .footer1-bottom{
+        display: flex;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    
+    .footer2, .footer3 {
+        display: flex;
+        gap: 10px;
+    }
+    .par0, .par1, .par2, .par3, .par4 {
+        margin-bottom: 10px;
+
+    }
+    
+    .par5, .par6, .par7, .par8, .par9, .par10 {
+        margin-bottom: 10px;
+    }
+    
+    .footer4-but {
+        margin-top: 10px ;
+    }
+    
+    .par11 {
+        padding-left: 10px;
+    }
+    
+    .footer4 {
+        padding-left: 120px;
+    }
+}
+    
